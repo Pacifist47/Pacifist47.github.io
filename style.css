@@ -1,0 +1,133 @@
+
+:root{
+	font-size: 28px
+}
+
+body{
+	background-color: grey;
+}
+
+.sscontainer{
+
+	display: flex;
+
+	flex-wrap: wrap;
+	
+	 
+}
+
+.neela{
+	background-color: blue;
+	width: 50%;
+	height:200px;
+}
+
+.hara{
+	background-color: green;
+	width: 50%;
+	height:200px;
+}
+
+.peela{
+	background-color: yellow;
+	width: 50%;
+	height:200px;
+}
+
+.laal{
+	background-color: red;
+	width: 50%;
+	height:200px;
+}
+
+
+
+
+@media scren and (min-width:780px)
+{	neela{
+	background-color: blue;
+	width: 50%;
+	height:200px;
+	}
+
+	.hara{
+	background-color: green;
+	width: 50%;
+	height:200px;
+	}
+
+	.peela{
+	background-color: yellow;
+	width: 50%;
+	height:200px;
+	}
+
+	.laal{
+	background-color: red;
+	width: 50%;
+	height:200px;
+	}
+
+} 
+
+
+@media scren and (min-width:480px) and (max-width:779px)
+{
+	neela{
+	background-color: blue;
+	width: 50%;
+	height:200px;
+	}
+
+	.hara{
+	background-color: green;
+	width: 50%;
+	height:200px;
+	}
+
+	.peela{
+	background-color: yellow;
+	width: 100%;
+	height:200px;
+	}
+
+	.laal{
+	background-color: red;
+	width: 100%;
+	height:200px;
+	}
+}
+
+@media scren and (max-width:479px) 
+{
+	neela{
+	background-color: blue;
+	width: 100%;
+	height:200px;
+	}
+
+	.hara{
+	background-color: green;
+	width: 100%;
+	height:200px;
+	}
+
+	.peela{
+	background-color: yellow;
+	width: 100%;
+	height:200px;
+	}
+
+	.laal{
+	background-color: red;
+	width: 100%;
+	height:200px;
+	}
+}
+
+
+
+
+
+
+
